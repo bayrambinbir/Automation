@@ -3,7 +3,7 @@ package com.visionworks.step_definitions;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
-import com.visionworks.pages.homePageTabs.VWtopTabs;
+import com.visionworks.pages.homePageTobTabs.VWtopTabs;
 import com.visionworks.pages.myAccount.VWaccountSettings;
 import com.visionworks.pages.myAccount.VWmyAccountSubTabs;
 import com.visionworks.pages.myAccount.VWsignInAndCreateAccount;
