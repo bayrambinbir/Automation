@@ -4,9 +4,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.visionworks.utilities.Driver;
 
-public class womensGlasses {
+public class VWwomensGlasses {
 
-	public womensGlasses() {
+	public VWwomensGlasses() {
 		PageFactory.initElements(Driver.getDriver(), this);
 	}
 

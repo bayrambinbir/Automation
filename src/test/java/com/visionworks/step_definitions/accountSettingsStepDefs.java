@@ -13,7 +13,7 @@ import com.visionworks.utilities.Driver;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
-public class VWaccountSettingsStepDefs {
+public class accountSettingsStepDefs {
 
 	WebDriver driver = Driver.getDriver();
 	String visionworksUrl = "https://www.visionworks.com/";
@@ -62,29 +62,28 @@ public class VWaccountSettingsStepDefs {
 
 	}
 
-    @Then("user enters the new password")
-    public void user_enters_the_new_password() {
-    	accountSettings.createNewPassword.sendKeys("Bayram2019");
-        
-    }
+	@Then("user enters the new password")
+	public void user_enters_the_new_password() {
+		accountSettings.createNewPassword.sendKeys("Bayram2019");
 
-    @Then("user confirms the new password")
-    public void user_confirms_the_new_password() {
-        accountSettings.confirmNewPassword.sendKeys("Bayram2019");
-    }
+	}
 
-    @Then("user clicks on saves button")
-    public void user_clicks_on_saves_button() {
-    	accountSettings.saveButtonInAccountSettings.click();
-        
-    }
-    @Then("user sees the confirmation saying that {string}")
-    public void user_sees_the_confirmation_saying_that(String expectedText) {
-    String actualConfirmationText = accountSettings.confirmationForPasswordChange.getText();
-    Assert.assertEquals(expectedText, actualConfirmationText);
-    
-        
-    }
+	@Then("user confirms the new password")
+	public void user_confirms_the_new_password() {
+		accountSettings.confirmNewPassword.sendKeys("Bayram2019");
+	}
+
+	@Then("user clicks on saves button")
+	public void user_clicks_on_saves_button() {
+		accountSettings.saveButtonInAccountSettings.click();
+
+	}
+
+	@Then("user sees the confirmation saying that {string}")
+	public void user_sees_the_confirmation_saying_that(String expectedText) {
+		String actualConfirmationText = accountSettings.confirmationForPasswordChange.getText();
+		Assert.assertEquals(expectedText, actualConfirmationText);
+
+	}
 
 }
-//}

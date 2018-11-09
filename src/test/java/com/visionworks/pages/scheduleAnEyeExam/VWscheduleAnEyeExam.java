@@ -6,8 +6,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.visionworks.utilities.Driver;
 
-public class scheduleAnEyeExam {
-	public scheduleAnEyeExam() {
+public class VWscheduleAnEyeExam {
+	public VWscheduleAnEyeExam() {
 		PageFactory.initElements(Driver.getDriver(), this);
 	}
 	@FindBy(xpath = "//*[contains(text(),'SCHEDULE AN EYE EXAM')]")

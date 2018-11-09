@@ -6,9 +6,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.visionworks.utilities.Driver;
 
-public class findAstore {
+public class VWfindAstore {
 
-	public findAstore() {
+	public VWfindAstore() {
 		PageFactory.initElements(Driver.getDriver(), this);
 	}
 	@FindBy (xpath = "(//input[@name='address'])[1]")

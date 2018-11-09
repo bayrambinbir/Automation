@@ -1,5 +1,5 @@
 Feature: ShippingAddresses
-@shippingAddress
+@addShippingAddress
 Scenario: Add a new shipping address
 	Given user signs in to the account
 	Then user clicks on My Account
