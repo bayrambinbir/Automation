@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2969" started-at="2018-11-06T16:39:51Z" finished-at="2018-11-06T16:39:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2969" started-at="2018-11-06T16:39:51Z" finished-at="2018-11-06T16:39:53Z">
+      <class name="com.visionworks.step_definitions.VWaccountSettingsStepDefs">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.visionworks.step_definitions.VWaccountSettingsStepDefs@6e1567f1]" name="setUp" is-config="true" duration-ms="2948" started-at="2018-11-06T16:39:51Z" finished-at="2018-11-06T16:39:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="simpleForm()[pri:1, instance:com.visionworks.step_definitions.VWaccountSettingsStepDefs@6e1567f1]" name="simpleForm" duration-ms="3" started-at="2018-11-06T16:39:53Z" description="Simple Form Demo" finished-at="2018-11-06T16:39:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleForm -->
+      </class> <!-- com.visionworks.step_definitions.VWaccountSettingsStepDefs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
