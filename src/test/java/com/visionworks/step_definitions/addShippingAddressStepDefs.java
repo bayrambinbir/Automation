@@ -7,7 +7,7 @@ import com.visionworks.pages.myAccount.VWshippingAddresses;
 
 import cucumber.api.java.en.Then;
 
-public class addShippingAddressesStepDefs {
+public class addShippingAddressStepDefs {
 	VWshippingAddresses shippingAddresses = new VWshippingAddresses();
 	WebDriver driver;
 

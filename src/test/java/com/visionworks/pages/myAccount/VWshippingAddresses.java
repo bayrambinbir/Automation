@@ -68,6 +68,12 @@ public class VWshippingAddresses {
 	@FindBy(xpath = "(//*[contains(text(),'CANCEL')])[2]")
 	public WebElement cancelButtonForShippingAddress;
 	
+	@FindBy(xpath = "(//*[contains(text(),'Delete')])[1]")
+    public WebElement deleteButton;
+    
+    @FindBy(xpath = "(//*[contains(text(),'DELETE')])[2]")
+    public WebElement deleteButtonUnderAreYouSureToDeleteThisAddress;
+
 	
 	
 }
