@@ -1,4 +1,4 @@
-Feature: ShippingAddresses
+Feature: Shipping Addresses
 @deleteShippingAddress
 Scenario: Add a new shipping address
 	Given user signs in to the account

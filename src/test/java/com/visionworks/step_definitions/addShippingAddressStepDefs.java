@@ -1,6 +1,7 @@
 package com.visionworks.step_definitions;
 
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import com.visionworks.pages.myAccount.VWshippingAddresses;
@@ -28,14 +29,30 @@ public class addShippingAddressStepDefs {
 			String name, String lastName, String PhoneFirstThree, String PhoneSecondThree, String PhoneLastFour,
 			String address, String city, String zipCode) {
 
+		shippingAddresses.firstNameForShippingAddress.clear();
 		shippingAddresses.firstNameForShippingAddress.sendKeys(name);
+
+		shippingAddresses.lastNameForShippingAddress.clear();
 		shippingAddresses.lastNameForShippingAddress.sendKeys(lastName);
+
+		shippingAddresses.phoneFirstThreeDigitsForshippingAddresses.clear();
 		shippingAddresses.phoneFirstThreeDigitsForshippingAddresses.sendKeys(PhoneFirstThree);
+
+		shippingAddresses.phoneSecondThreeDigitsForshippingAddresses.clear();
 		shippingAddresses.phoneSecondThreeDigitsForshippingAddresses.sendKeys(PhoneSecondThree);
+
+		shippingAddresses.phoneLastFourDigitsForshippingAddresses.clear();
 		shippingAddresses.phoneLastFourDigitsForshippingAddresses.sendKeys(PhoneLastFour);
+
+		shippingAddresses.addressForShippingAddress.clear();
 		shippingAddresses.addressForShippingAddress.sendKeys(address);
+
+		shippingAddresses.cityForShippingAddress.clear();
 		shippingAddresses.cityForShippingAddress.sendKeys(city);
+
+		shippingAddresses.zipCodeForShippingAddress.clear();
 		shippingAddresses.zipCodeForShippingAddress.sendKeys(zipCode);
+
 		shippingAddresses.stateForShippingAddress.click();
 		shippingAddresses.texasForShippingAddress.click();
 
@@ -46,10 +63,4 @@ public class addShippingAddressStepDefs {
 		shippingAddresses.saveAddressBookButtonForShippingAddress.click();
 	}
 
-	@Then("user verifies the confirmation saying that {string}")
-	public void user_verifies_the_confirmation_saying_that(String expectedConfirmationForAddingAddress) {
-		String actualConfirmationForAddingAddress = shippingAddresses.confirmationTextForShippingAddress.getText();
-		Assert.assertEquals(expectedConfirmationForAddingAddress, actualConfirmationForAddingAddress);
-
-	}
 }

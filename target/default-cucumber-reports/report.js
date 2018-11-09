@@ -1,16 +1,16 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/com/visionworks/features/shippingAddresses/deleteShippingAddress.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/com/visionworks/features/shippingAddresses/editShippingAddress.feature");
 formatter.feature({
-  "name": "ShippingAddresses",
+  "name": "Shipping Addresses",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Add a new shipping address",
+  "name": "Editing shipping address",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@deleteShippingAddress"
+      "name": "@editShippingAddress"
     }
   ]
 });
@@ -48,21 +48,31 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user clicks on delete button to delete the address",
+  "name": "user clicks on edit button to edit the address",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "deleteShippingAddressStepDefs.user_clicks_on_delete_button_to_delete_the_address()"
+  "location": "editShippingAddressStepDefs.user_clicks_on_edit_button_to_edit_the_address()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "users sees a prompt saying are you sure to delete this address and click on the delete button",
+  "name": "user fills all information as follows: Name \"Bayram\" Last Name \"Binbir\" PhoneFirstThree \"210\" PhoneSecondThree \"234\" PhoneLastFour \"2121\" Address \"175 E Houston St\" City \"San Antonio\" Zip Code \"78205\" State is TX",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "deleteShippingAddressStepDefs.users_sees_a_prompt_saying_are_you_sure_to_delete_this_address_and_click_on_the_delete_button()"
+  "location": "addShippingAddressStepDefs.user_fills_all_information_as_follows_Name_Last_Name_PhoneFirstThree_PhoneSecondThree_PhoneLastFour_Address_City_Zip_Code_State_is_TX(String,String,String,String,String,String,String,String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on Save button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "addShippingAddressStepDefs.user_clicks_on_Save_button()"
 });
 formatter.result({
   "status": "passed"

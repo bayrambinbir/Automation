@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 2928195722,
+              "duration": 3518810885,
               "status": "passed"
             },
             "match": {
@@ -15,13 +15,13 @@
           }
         ],
         "line": 3,
-        "name": "Add a new shipping address",
+        "name": "Editing shipping address",
         "description": "",
-        "id": "shippingaddresses;add-a-new-shipping-address",
+        "id": "shipping-addresses;editing-shipping-address",
         "after": [
           {
             "result": {
-              "duration": 65351,
+              "duration": 94514,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8531306827,
+              "duration": 21445773053,
               "status": "passed"
             },
             "line": 4,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 1266248317,
+              "duration": 1596550695,
               "status": "passed"
             },
             "line": 5,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 1281627773,
+              "duration": 1378287834,
               "status": "passed"
             },
             "line": 6,
@@ -70,41 +70,87 @@
           },
           {
             "result": {
-              "duration": 100733382,
+              "duration": 1541651612,
               "status": "passed"
             },
             "line": 7,
-            "name": "user clicks on delete button to delete the address",
+            "name": "user clicks on edit button to edit the address",
             "match": {
-              "location": "deleteShippingAddressStepDefs.user_clicks_on_delete_button_to_delete_the_address()"
+              "location": "editShippingAddressStepDefs.user_clicks_on_edit_button_to_edit_the_address()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1717494590,
+              "duration": 1267160521,
               "status": "passed"
             },
             "line": 8,
-            "name": "users sees a prompt saying are you sure to delete this address and click on the delete button",
+            "name": "user fills all information as follows: Name \"Bayram\" Last Name \"Binbir\" PhoneFirstThree \"210\" PhoneSecondThree \"234\" PhoneLastFour \"2121\" Address \"175 E Houston St\" City \"San Antonio\" Zip Code \"78205\" State is TX",
             "match": {
-              "location": "deleteShippingAddressStepDefs.users_sees_a_prompt_saying_are_you_sure_to_delete_this_address_and_click_on_the_delete_button()"
+              "arguments": [
+                {
+                  "val": "\"Bayram\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"Binbir\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"210\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"234\"",
+                  "offset": 111
+                },
+                {
+                  "val": "\"2121\"",
+                  "offset": 131
+                },
+                {
+                  "val": "\"175 E Houston St\"",
+                  "offset": 146
+                },
+                {
+                  "val": "\"San Antonio\"",
+                  "offset": 170
+                },
+                {
+                  "val": "\"78205\"",
+                  "offset": 193
+                }
+              ],
+              "location": "addShippingAddressStepDefs.user_fills_all_information_as_follows_Name_Last_Name_PhoneFirstThree_PhoneSecondThree_PhoneLastFour_Address_City_Zip_Code_State_is_TX(String,String,String,String,String,String,String,String)"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 299838893,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on Save button",
+            "match": {
+              "location": "addShippingAddressStepDefs.user_clicks_on_Save_button()"
+            },
+            "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@deleteShippingAddress"
+            "name": "@editShippingAddress"
           }
         ]
       }
     ],
-    "name": "ShippingAddresses",
+    "name": "Shipping Addresses",
     "description": "",
-    "id": "shippingaddresses",
+    "id": "shipping-addresses",
     "keyword": "Feature",
-    "uri": "src/test/resources/com/visionworks/features/shippingAddresses/deleteShippingAddress.feature",
+    "uri": "src/test/resources/com/visionworks/features/shippingAddresses/editShippingAddress.feature",
     "tags": []
   }
 ]
