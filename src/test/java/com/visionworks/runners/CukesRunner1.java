@@ -15,7 +15,7 @@ import cucumber.api.junit.Cucumber;
 		
 		},
 		
-		tags= "@editShippingAddress",
+		tags= "@viewingFavorites",
 //		features= {"src/test/resources/com/prestashop/features", 
 //				"src/test/resources/com/ct_bnb/features"}, 
 		features = "src/test/resources/com/visionworks/features", 
