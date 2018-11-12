@@ -1,4 +1,4 @@
-package com.visionworks.pages.Glasses;
+package com.visionworks.pages.glasses;
 
 import org.openqa.selenium.support.PageFactory;
 

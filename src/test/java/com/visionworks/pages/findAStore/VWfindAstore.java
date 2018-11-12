@@ -1,4 +1,4 @@
-package com.visionworks.pages.FindAStore;
+package com.visionworks.pages.findAStore;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

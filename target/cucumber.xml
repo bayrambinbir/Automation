@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.687185">
-<testcase classname="Viewing Favorites" name="Favorites" time="14.687185">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="49.734354">
+<testcase classname="Viewing Favorites" name="Favorites" time="49.734354">
 <system-out><![CDATA[Given user signs in to the account..........................................passed
 Given user clicks on My Account main tab....................................passed
 Then user clicks on My Favorites............................................passed
