@@ -1,71 +1,83 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/com/visionworks/features/accountSettings/createAnAccount.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/com/visionworks/features/shippingAddresses/editShippingAddress.feature");
 formatter.feature({
-  "name": "Create An Account",
+  "name": "Shipping Addresses",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "User create an account",
+  "name": "Editing shipping address",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@createAnAccount"
+      "name": "@editShippingAddress"
     }
   ]
 });
 formatter.before({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
-  "name": "user clicks on My Account main tab",
+  "name": "user signs in to the account",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "accountSettingsStepDefs.user_signs_in_to_the_account()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "user clicks on Create An Account",
+  "name": "user clicks on My Account",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "accountSettingsStepDefs.user_clicks_on_My_Account()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "user fills out all the fields",
+  "name": "user clicks on Manage Addresses",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "addShippingAddressStepDefs.user_clicks_on_Manage_Addresses()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "user clicks on I agree to receive news and offers from Visionworks box",
+  "name": "user clicks on edit button to edit the address",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "editShippingAddressStepDefs.user_clicks_on_edit_button_to_edit_the_address()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "user clicks on Check this box to show you understand the Terms of Use box",
+  "name": "user fills all information as follows: Name \"Bayram\" Last Name \"Binbir\" PhoneFirstThree \"210\" PhoneSecondThree \"234\" PhoneLastFour \"2121\" Address \"175 E Houston St\" City \"San Antonio\" Zip Code \"78205\" State is TX",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "addShippingAddressStepDefs.user_fills_all_information_as_follows_Name_Last_Name_PhoneFirstThree_PhoneSecondThree_PhoneLastFour_Address_City_Zip_Code_State_is_TX(String,String,String,String,String,String,String,String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "user clicks on Agree \u0026 Create An Account Box",
-  "keyword": "Then "
+  "name": "user clicks on Save button",
+  "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "addShippingAddressStepDefs.user_clicks_on_Save_button()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
 });
 });

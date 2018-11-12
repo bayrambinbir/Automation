@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0.013908">
-<testcase classname="Create An Account" name="User create an account" time="0.013908">
-<skipped><![CDATA[Given user clicks on My Account main tab....................................undefined
-Then user clicks on Create An Account.......................................undefined
-Then user fills out all the fields..........................................undefined
-Then user clicks on I agree to receive news and offers from Visionworks box.undefined
-Then user clicks on Check this box to show you understand the Terms of Use box.undefined
-Then user clicks on Agree & Create An Account Box...........................undefined
-]]></skipped>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.836215">
+<testcase classname="Shipping Addresses" name="Editing shipping address" time="18.836215">
+<system-out><![CDATA[Given user signs in to the account..........................................passed
+Then user clicks on My Account..............................................passed
+Then user clicks on Manage Addresses........................................passed
+Then user clicks on edit button to edit the address.........................passed
+Then user fills all information as follows: Name "Bayram" Last Name "Binbir" PhoneFirstThree "210" PhoneSecondThree "234" PhoneLastFour "2121" Address "175 E Houston St" City "San Antonio" Zip Code "78205" State is TX.passed
+And user clicks on Save button..............................................passed
+]]></system-out>
 </testcase>
 </testsuite>

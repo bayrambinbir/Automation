@@ -15,13 +15,13 @@ import cucumber.api.junit.Cucumber;
 		
 		},
 		
-		tags= "@createAnAccount",
+		tags= "@editShippingAddress",
 //		features= {"src/test/resources/com/prestashop/features", 
 //				"src/test/resources/com/ct_bnb/features"}, 
 		features = "src/test/resources/com/visionworks/features", 
 //		glue= {"com/prestashop/step_definitions", "com/ctbnb/step_definitions" }
 		glue= "com/visionworks/step_definitions",
-	dryRun = true,
+	dryRun = false,
 				monochrome = true
 		)
 public class CukesRunner1  {

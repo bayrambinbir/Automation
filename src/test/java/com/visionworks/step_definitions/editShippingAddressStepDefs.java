@@ -12,6 +12,5 @@ public class editShippingAddressStepDefs {
 	public void user_clicks_on_edit_button_to_edit_the_address() {
 	  shippingAddresses.editButton.click();
 	}
-//test
-	// hello
+
 }
