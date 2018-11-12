@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
 <testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.022814">
 <testcase classname="Create An Account" name="User create an account" time="14.022814">
 <system-out><![CDATA[Given user clicks on My Account main tab....................................passed
@@ -7,6 +8,14 @@ Then user fills out all the fields..........................................pass
 Then user clicks on I agree to receive news and offers from Visionworks box.passed
 Then user clicks on Check this box to show you understand the Terms of Use box.passed
 Then user clicks on Agree & Create An Account Box...........................passed
+=======
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.687185">
+<testcase classname="Viewing Favorites" name="Favorites" time="14.687185">
+<system-out><![CDATA[Given user signs in to the account..........................................passed
+Given user clicks on My Account main tab....................................passed
+Then user clicks on My Favorites............................................passed
+Then user should see favorites..............................................passed
+>>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
 ]]></system-out>
 </testcase>
 </testsuite>

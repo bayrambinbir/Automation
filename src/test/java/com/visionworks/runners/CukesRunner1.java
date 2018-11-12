@@ -15,7 +15,11 @@ import cucumber.api.junit.Cucumber;
 		
 		},
 		
+<<<<<<< HEAD
 		tags= "@createAnAccount",
+=======
+		tags= "@viewingFavorites",
+>>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
 //		features= {"src/test/resources/com/prestashop/features", 
 //				"src/test/resources/com/ct_bnb/features"}, 
 		features = "src/test/resources/com/visionworks/features", 

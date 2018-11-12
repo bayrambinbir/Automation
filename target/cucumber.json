@@ -6,7 +6,11 @@
         "before": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 5827646342,
+=======
+              "duration": 2536238513,
+>>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
               "status": "passed"
             },
             "match": {
@@ -15,6 +19,7 @@
           }
         ],
         "line": 3,
+<<<<<<< HEAD
         "name": "User create an account",
         "description": "",
         "id": "create-an-account;user-create-an-account",
@@ -22,6 +27,15 @@
           {
             "result": {
               "duration": 92355,
+=======
+        "name": "Favorites",
+        "description": "",
+        "id": "viewing-favorites;favorites",
+        "after": [
+          {
+            "result": {
+              "duration": 84253,
+>>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
               "status": "passed"
             },
             "match": {
@@ -34,7 +48,11 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 4948769824,
+=======
+              "duration": 8735956483,
+>>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
               "status": "passed"
             },
             "line": 4,
@@ -46,6 +64,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1101910546,
               "status": "passed"
             },
@@ -53,11 +72,21 @@
             "name": "user clicks on Create An Account",
             "match": {
               "location": "createAnAccountStepDefs.user_clicks_on_Create_An_Account()"
+=======
+              "duration": 1910057217,
+              "status": "passed"
             },
-            "keyword": "Then "
+            "line": 5,
+            "name": "user clicks on My Account main tab",
+            "match": {
+              "location": "createAnAccountStepDefs.user_clicks_on_My_Account_main_tab()"
+>>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
+            },
+            "keyword": "Given "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 812415983,
               "status": "passed"
             },
@@ -65,11 +94,21 @@
             "name": "user fills out all the fields",
             "match": {
               "location": "createAnAccountStepDefs.user_fills_out_all_the_fields()"
+=======
+              "duration": 1334247874,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on My Favorites",
+            "match": {
+              "location": "viewingFavoritesStepDefs.user_clicks_on_My_Favorites()"
+>>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
             },
             "keyword": "Then "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 78468755,
               "status": "passed"
             },
@@ -103,20 +142,43 @@
               "location": "createAnAccountStepDefs.user_clicks_on_Agree_Create_An_Account_Box()"
             },
             "keyword": "Then "
+=======
+              "duration": 159951630,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should see favorites",
+            "match": {
+              "location": "viewingFavoritesStepDefs.user_should_see_favorites()"
+            },
+            "keyword": "Then "
+>>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
           }
         ],
         "tags": [
           {
+<<<<<<< HEAD
             "name": "@createAnAccount"
+=======
+            "name": "@viewingFavorites"
+>>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
           }
         ]
       }
     ],
+<<<<<<< HEAD
     "name": "Create An Account",
     "description": "",
     "id": "create-an-account",
     "keyword": "Feature",
     "uri": "src/test/resources/com/visionworks/features/accountSettings/createAnAccount.feature",
+=======
+    "name": "Viewing Favorites",
+    "description": "",
+    "id": "viewing-favorites",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com/visionworks/features/myFavorites/viewingFavorites.feature",
+>>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
     "tags": []
   }
 ]

@@ -20,7 +20,7 @@ public class VWtopTabs {
 	@FindBy (xpath = "//*[@id=\"dropdownInsurance\"]/a")
 	public WebElement insuranceTab;
 	
-	@FindBy(xpath = "//*[@id='dtAccount']")
+	@FindBy(id = "dtAccount")
 	public WebElement myAccountTab;
 	
 	@FindBy(xpath = "/(//*[contains(text(),'Help')])[2]")
