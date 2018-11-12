@@ -1,16 +1,16 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/com/visionworks/features/shippingAddresses/editShippingAddress.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/com/visionworks/features/accountSettings/createAnAccount.feature");
 formatter.feature({
-  "name": "Shipping Addresses",
+  "name": "Create An Account",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Editing shipping address",
+  "name": "User create an account",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@editShippingAddress"
+      "name": "@createAnAccount"
     }
   ]
 });
@@ -18,61 +18,61 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "user signs in to the account",
+  "name": "user clicks on My Account main tab",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "accountSettingsStepDefs.user_signs_in_to_the_account()"
+  "location": "createAnAccountStepDefs.user_clicks_on_My_Account_main_tab()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user clicks on My Account",
+  "name": "user clicks on Create An Account",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "accountSettingsStepDefs.user_clicks_on_My_Account()"
+  "location": "createAnAccountStepDefs.user_clicks_on_Create_An_Account()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user clicks on Manage Addresses",
+  "name": "user fills out all the fields",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "addShippingAddressStepDefs.user_clicks_on_Manage_Addresses()"
+  "location": "createAnAccountStepDefs.user_fills_out_all_the_fields()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user clicks on edit button to edit the address",
+  "name": "user clicks on I agree to receive news and offers from Visionworks box",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "editShippingAddressStepDefs.user_clicks_on_edit_button_to_edit_the_address()"
+  "location": "createAnAccountStepDefs.user_clicks_on_I_agree_to_receive_news_and_offers_from_Visionworks_box()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user fills all information as follows: Name \"Bayram\" Last Name \"Binbir\" PhoneFirstThree \"210\" PhoneSecondThree \"234\" PhoneLastFour \"2121\" Address \"175 E Houston St\" City \"San Antonio\" Zip Code \"78205\" State is TX",
+  "name": "user clicks on Check this box to show you understand the Terms of Use box",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "addShippingAddressStepDefs.user_fills_all_information_as_follows_Name_Last_Name_PhoneFirstThree_PhoneSecondThree_PhoneLastFour_Address_City_Zip_Code_State_is_TX(String,String,String,String,String,String,String,String)"
+  "location": "createAnAccountStepDefs.user_clicks_on_Check_this_box_to_show_you_understand_the_Terms_of_Use_box()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user clicks on Save button",
-  "keyword": "And "
+  "name": "user clicks on Agree \u0026 Create An Account Box",
+  "keyword": "Then "
 });
 formatter.match({
-  "location": "addShippingAddressStepDefs.user_clicks_on_Save_button()"
+  "location": "createAnAccountStepDefs.user_clicks_on_Agree_Create_An_Account_Box()"
 });
 formatter.result({
   "status": "passed"

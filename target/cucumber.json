@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 3086771955,
+              "duration": 5827646342,
               "status": "passed"
             },
             "match": {
@@ -15,13 +15,13 @@
           }
         ],
         "line": 3,
-        "name": "Editing shipping address",
+        "name": "User create an account",
         "description": "",
-        "id": "shipping-addresses;editing-shipping-address",
+        "id": "create-an-account;user-create-an-account",
         "after": [
           {
             "result": {
-              "duration": 102075,
+              "duration": 92355,
               "status": "passed"
             },
             "match": {
@@ -34,123 +34,89 @@
         "steps": [
           {
             "result": {
-              "duration": 9756238773,
+              "duration": 4948769824,
               "status": "passed"
             },
             "line": 4,
-            "name": "user signs in to the account",
+            "name": "user clicks on My Account main tab",
             "match": {
-              "location": "accountSettingsStepDefs.user_signs_in_to_the_account()"
+              "location": "createAnAccountStepDefs.user_clicks_on_My_Account_main_tab()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1408243616,
+              "duration": 1101910546,
               "status": "passed"
             },
             "line": 5,
-            "name": "user clicks on My Account",
+            "name": "user clicks on Create An Account",
             "match": {
-              "location": "accountSettingsStepDefs.user_clicks_on_My_Account()"
+              "location": "createAnAccountStepDefs.user_clicks_on_Create_An_Account()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1296584081,
+              "duration": 812415983,
               "status": "passed"
             },
             "line": 6,
-            "name": "user clicks on Manage Addresses",
+            "name": "user fills out all the fields",
             "match": {
-              "location": "addShippingAddressStepDefs.user_clicks_on_Manage_Addresses()"
+              "location": "createAnAccountStepDefs.user_fills_out_all_the_fields()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1902658075,
+              "duration": 78468755,
               "status": "passed"
             },
             "line": 7,
-            "name": "user clicks on edit button to edit the address",
+            "name": "user clicks on I agree to receive news and offers from Visionworks box",
             "match": {
-              "location": "editShippingAddressStepDefs.user_clicks_on_edit_button_to_edit_the_address()"
+              "location": "createAnAccountStepDefs.user_clicks_on_I_agree_to_receive_news_and_offers_from_Visionworks_box()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1153860030,
+              "duration": 76542816,
               "status": "passed"
             },
             "line": 8,
-            "name": "user fills all information as follows: Name \"Bayram\" Last Name \"Binbir\" PhoneFirstThree \"210\" PhoneSecondThree \"234\" PhoneLastFour \"2121\" Address \"175 E Houston St\" City \"San Antonio\" Zip Code \"78205\" State is TX",
+            "name": "user clicks on Check this box to show you understand the Terms of Use box",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Bayram\"",
-                  "offset": 44
-                },
-                {
-                  "val": "\"Binbir\"",
-                  "offset": 63
-                },
-                {
-                  "val": "\"210\"",
-                  "offset": 88
-                },
-                {
-                  "val": "\"234\"",
-                  "offset": 111
-                },
-                {
-                  "val": "\"2121\"",
-                  "offset": 131
-                },
-                {
-                  "val": "\"175 E Houston St\"",
-                  "offset": 146
-                },
-                {
-                  "val": "\"San Antonio\"",
-                  "offset": 170
-                },
-                {
-                  "val": "\"78205\"",
-                  "offset": 193
-                }
-              ],
-              "location": "addShippingAddressStepDefs.user_fills_all_information_as_follows_Name_Last_Name_PhoneFirstThree_PhoneSecondThree_PhoneLastFour_Address_City_Zip_Code_State_is_TX(String,String,String,String,String,String,String,String)"
+              "location": "createAnAccountStepDefs.user_clicks_on_Check_this_box_to_show_you_understand_the_Terms_of_Use_box()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 220617034,
+              "duration": 1160818551,
               "status": "passed"
             },
             "line": 9,
-            "name": "user clicks on Save button",
+            "name": "user clicks on Agree \u0026 Create An Account Box",
             "match": {
-              "location": "addShippingAddressStepDefs.user_clicks_on_Save_button()"
+              "location": "createAnAccountStepDefs.user_clicks_on_Agree_Create_An_Account_Box()"
             },
-            "keyword": "And "
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@editShippingAddress"
+            "name": "@createAnAccount"
           }
         ]
       }
     ],
-    "name": "Shipping Addresses",
+    "name": "Create An Account",
     "description": "",
-    "id": "shipping-addresses",
+    "id": "create-an-account",
     "keyword": "Feature",
-    "uri": "src/test/resources/com/visionworks/features/shippingAddresses/editShippingAddress.feature",
+    "uri": "src/test/resources/com/visionworks/features/accountSettings/createAnAccount.feature",
     "tags": []
   }
 ]
