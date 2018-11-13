@@ -28,6 +28,16 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
+  "name": "user sees the Page title saying \"Visionworks Offers, Discounts \u0026 Coupons on Glasses | Visionworks\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "offersWithoutSignInStepDefs.user_sees_the_Page_title_saying(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
   "name": "User enters zip code",
   "keyword": "Then "
 });

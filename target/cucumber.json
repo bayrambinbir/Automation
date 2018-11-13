@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 2972976315,
+              "duration": 2679047031,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 117199,
+              "duration": 110718,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6045166214,
+              "duration": 8227791577,
               "status": "passed"
             },
             "line": 4,
@@ -46,10 +46,28 @@
           },
           {
             "result": {
-              "duration": 99404232,
+              "duration": 7210672,
               "status": "passed"
             },
             "line": 5,
+            "name": "user sees the Page title saying \"Visionworks Offers, Discounts \u0026 Coupons on Glasses | Visionworks\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Visionworks Offers, Discounts \u0026 Coupons on Glasses | Visionworks\"",
+                  "offset": 32
+                }
+              ],
+              "location": "offersWithoutSignInStepDefs.user_sees_the_Page_title_saying(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 85980424,
+              "status": "passed"
+            },
+            "line": 6,
             "name": "User enters zip code",
             "match": {
               "location": "offersWithoutSignInStepDefs.user_enters_zip_code()"
@@ -58,10 +76,10 @@
           },
           {
             "result": {
-              "duration": 2130904680,
+              "duration": 2094548330,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User clicks on Go button for zip code",
             "match": {
               "location": "offersWithoutSignInStepDefs.user_clicks_on_Go_button_for_zip_code()"
@@ -70,10 +88,10 @@
           },
           {
             "result": {
-              "duration": 285705,
+              "duration": 291105,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User sees the map with store locations",
             "match": {
               "location": "offersWithoutSignInStepDefs.user_sees_the_map_with_store_locations()"
@@ -82,10 +100,10 @@
           },
           {
             "result": {
-              "duration": 39828016,
+              "duration": 52274810,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "user sees how many stores are there in that area",
             "match": {
               "location": "offersWithoutSignInStepDefs.user_sees_how_many_stores_are_there_in_that_area()"
