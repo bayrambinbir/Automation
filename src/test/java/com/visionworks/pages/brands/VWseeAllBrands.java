@@ -29,6 +29,89 @@ public class VWseeAllBrands {
 	//a[@class='has-underline'] [contains(text(),'Bebe')]   we can use this xpath as well
 	public WebElement bebeUnderSeeAllBrands;
 	
+	@FindBy(xpath = "//a[contains(text(),'Blue Moon')]")
+	public WebElement blueMoonUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Calvin Klein')]")
+	public WebElement calvinKleinUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Candies')]")
+	public WebElement candiesUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Caterpillar')]")
+	public WebElement caterpillarUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Catherine Deneuve')]")
+	public WebElement catherineDeneuveUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Chelsea Morgan')]")
+	public WebElement chelseaMorganUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Coach')]")
+	public WebElement coachUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Splendor')]")
+	public WebElement splendorUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Stetson')]")
+	public WebElement stetsonUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Swarovski')]")
+	public WebElement stwarovskiUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[@class='has-underline'] [contains(text(),'Technolite')]")
+	public WebElement technoliteUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Technolite Flex')]")
+	public WebElement technoliteFlexUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Tony Hawk')]")
+	public WebElement tonyHawkUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Transformers')]")
+	public WebElement transformersUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Under $100')]")
+	public WebElement under$100UnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Value Frames')]")
+	public WebElement valueFramesUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Vera Bradley')]")
+	public WebElement veraBradleyUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Zac Posen')]")
+	public WebElement zacPosenUnderSeeAllBrands;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
