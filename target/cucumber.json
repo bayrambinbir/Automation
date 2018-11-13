@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 2990570684,
+              "duration": 2633914698,
               "status": "passed"
             },
             "match": {
@@ -15,13 +15,13 @@
           }
         ],
         "line": 3,
-        "name": "Favorites",
+        "name": "User testing offers",
         "description": "",
-        "id": "viewing-favorites;favorites",
+        "id": "testing-offers;user-testing-offers",
         "after": [
           {
             "result": {
-              "duration": 69671,
+              "duration": 63190,
               "status": "passed"
             },
             "match": {
@@ -34,77 +34,65 @@
         "steps": [
           {
             "result": {
-              "duration": 15271042998,
+              "duration": 6130532960,
               "status": "passed"
             },
             "line": 4,
-            "name": "user signs in to the account",
+            "name": "User clicks on offers top tab",
             "match": {
-              "location": "accountSettingsStepDefs.user_signs_in_to_the_account()"
+              "location": "offersWithoutSignInStepDefs.user_clicks_on_offers_top_tab()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 3604851785,
+              "duration": 102607365,
               "status": "passed"
             },
             "line": 5,
-            "name": "user clicks on My Account main tab",
+            "name": "User enters zip code",
             "match": {
-              "location": "createAnAccountStepDefs.user_clicks_on_My_Account_main_tab()"
+              "location": "offersWithoutSignInStepDefs.user_enters_zip_code()"
             },
-            "keyword": "Given "
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1842211944,
+              "duration": 1678840526,
               "status": "passed"
             },
             "line": 6,
-            "name": "user clicks on My Favorites",
+            "name": "User clicks on Go button for zip code",
             "match": {
-              "location": "viewingFavoritesStepDefs.user_clicks_on_My_Favorites()"
+              "location": "offersWithoutSignInStepDefs.user_clicks_on_Go_button_for_zip_code()"
             },
-            "keyword": "Then "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 21530964,
+              "duration": 218194,
               "status": "passed"
             },
             "line": 7,
-            "name": "user should see how many favorites that he or she has",
+            "name": "User sees the map with store locations",
             "match": {
-              "location": "viewingFavoritesStepDefs.user_should_see_how_many_favorites_that_he_or_she_has()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 198596755,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user sees the name, original price and reduced priced of the favorite item(s)",
-            "match": {
-              "location": "viewingFavoritesStepDefs.user_sees_the_name_original_price_and_reduced_priced_of_the_favorite_item_s()"
+              "location": "offersWithoutSignInStepDefs.user_sees_the_map_with_store_locations()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@viewingFavorites"
+            "name": "@offersWitoutSignIn"
           }
         ]
       }
     ],
-    "name": "Viewing Favorites",
+    "name": "Testing offers",
     "description": "",
-    "id": "viewing-favorites",
+    "id": "testing-offers",
     "keyword": "Feature",
-    "uri": "src/test/resources/com/visionworks/features/myFavorites/viewingFavorites.feature",
+    "uri": "src/test/resources/com/visionworks/features/offers/offersWithoutSignIn.feature",
     "tags": []
   }
 ]

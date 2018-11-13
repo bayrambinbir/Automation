@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.945454">
-<testcase classname="Viewing Favorites" name="Favorites" time="23.945454">
-<system-out><![CDATA[Given user signs in to the account..........................................passed
-Given user clicks on My Account main tab....................................passed
-Then user clicks on My Favorites............................................passed
-Then user should see how many favorites that he or she has..................passed
-Then user sees the name, original price and reduced priced of the favorite item(s).passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="10.562615">
+<testcase classname="Testing offers" name="User testing offers" time="10.562615">
+<system-out><![CDATA[Given User clicks on offers top tab.........................................passed
+Then User enters zip code...................................................passed
+And User clicks on Go button for zip code...................................passed
+Then User sees the map with store locations.................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

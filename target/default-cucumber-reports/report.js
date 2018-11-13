@@ -1,16 +1,16 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/com/visionworks/features/myFavorites/viewingFavorites.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/com/visionworks/features/offers/offersWithoutSignIn.feature");
 formatter.feature({
-  "name": "Viewing Favorites",
+  "name": "Testing offers",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Favorites",
+  "name": "User testing offers",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@viewingFavorites"
+      "name": "@offersWitoutSignIn"
     }
   ]
 });
@@ -18,51 +18,41 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "user signs in to the account",
+  "name": "User clicks on offers top tab",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "accountSettingsStepDefs.user_signs_in_to_the_account()"
+  "location": "offersWithoutSignInStepDefs.user_clicks_on_offers_top_tab()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user clicks on My Account main tab",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "createAnAccountStepDefs.user_clicks_on_My_Account_main_tab()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks on My Favorites",
+  "name": "User enters zip code",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "viewingFavoritesStepDefs.user_clicks_on_My_Favorites()"
+  "location": "offersWithoutSignInStepDefs.user_enters_zip_code()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user should see how many favorites that he or she has",
-  "keyword": "Then "
+  "name": "User clicks on Go button for zip code",
+  "keyword": "And "
 });
 formatter.match({
-  "location": "viewingFavoritesStepDefs.user_should_see_how_many_favorites_that_he_or_she_has()"
+  "location": "offersWithoutSignInStepDefs.user_clicks_on_Go_button_for_zip_code()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user sees the name, original price and reduced priced of the favorite item(s)",
+  "name": "User sees the map with store locations",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "viewingFavoritesStepDefs.user_sees_the_name_original_price_and_reduced_priced_of_the_favorite_item_s()"
+  "location": "offersWithoutSignInStepDefs.user_sees_the_map_with_store_locations()"
 });
 formatter.result({
   "status": "passed"
