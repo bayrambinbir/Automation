@@ -1,4 +1,4 @@
-package com.visionworks.step_definitions;
+package com.visionworks.step_definitions.offers;
 
 import java.util.List;
 

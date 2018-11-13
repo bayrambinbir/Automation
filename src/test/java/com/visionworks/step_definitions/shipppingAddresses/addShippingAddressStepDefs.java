@@ -1,4 +1,4 @@
-package com.visionworks.step_definitions;
+package com.visionworks.step_definitions.shipppingAddresses;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
