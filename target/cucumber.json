@@ -6,15 +6,7 @@
         "before": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 3807269630,
-=======
-<<<<<<< HEAD
-              "duration": 5827646342,
-=======
-              "duration": 2536238513,
->>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
->>>>>>> 4897cf6145ae83fe34e3cba40b297687a0f53bd0
+              "duration": 4243227888,
               "status": "passed"
             },
             "match": {
@@ -23,28 +15,15 @@
           }
         ],
         "line": 3,
-<<<<<<< HEAD
-        "name": "User create an account",
-        "description": "",
-        "id": "create-an-account;user-create-an-account",
-        "after": [
-          {
-            "result": {
-              "duration": 92355,
-=======
         "name": "Favorites",
         "description": "",
         "id": "viewing-favorites;favorites",
         "after": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 66431,
-=======
-              "duration": 84253,
->>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
->>>>>>> 4897cf6145ae83fe34e3cba40b297687a0f53bd0
-              "status": "passed"
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d70.0.3538.77)\n  (Driver info: chromedriver\u003d71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027LT-SAT00028\u0027, ip: \u0027172.17.90.33\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_191\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 71.0.3578.33 (269aa0e3f0db0..., userDataDir: C:\\Users\\jybarra\\AppData\\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50508}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}\nSession ID: 7bef0d9dd277d6fb0ad3272288cbaf20\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:289)\r\n\tat com.visionworks.step_definitions.Hooks.tearDown(Hooks.java:54)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.HookDefinitionMatch.runStep(HookDefinitionMatch.java:14)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:55)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:42)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:53)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)\r\n",
+              "duration": 6017163868,
+              "status": "failed"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
@@ -56,18 +35,22 @@
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 11489913403,
-=======
-<<<<<<< HEAD
-              "duration": 4948769824,
-=======
-              "duration": 8735956483,
->>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
->>>>>>> 4897cf6145ae83fe34e3cba40b297687a0f53bd0
+              "duration": 26356276639,
               "status": "passed"
             },
             "line": 4,
+            "name": "user signs in to the account",
+            "match": {
+              "location": "accountSettingsStepDefs.user_signs_in_to_the_account()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1704459041,
+              "status": "passed"
+            },
+            "line": 5,
             "name": "user clicks on My Account main tab",
             "match": {
               "location": "createAnAccountStepDefs.user_clicks_on_My_Account_main_tab()"
@@ -76,99 +59,21 @@
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 2812559747,
-=======
-<<<<<<< HEAD
-              "duration": 1101910546,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user clicks on Create An Account",
-            "match": {
-              "location": "createAnAccountStepDefs.user_clicks_on_Create_An_Account()"
-=======
-              "duration": 1910057217,
->>>>>>> 4897cf6145ae83fe34e3cba40b297687a0f53bd0
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user clicks on My Account main tab",
-            "match": {
-              "location": "createAnAccountStepDefs.user_clicks_on_My_Account_main_tab()"
->>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-<<<<<<< HEAD
-              "duration": 1484513109,
-=======
-<<<<<<< HEAD
-              "duration": 812415983,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user fills out all the fields",
-            "match": {
-              "location": "createAnAccountStepDefs.user_fills_out_all_the_fields()"
-=======
-              "duration": 1334247874,
->>>>>>> 4897cf6145ae83fe34e3cba40b297687a0f53bd0
+              "duration": 1596913204,
               "status": "passed"
             },
             "line": 6,
             "name": "user clicks on My Favorites",
             "match": {
               "location": "viewingFavoritesStepDefs.user_clicks_on_My_Favorites()"
->>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
             },
             "keyword": "Then "
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 78468755,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user clicks on I agree to receive news and offers from Visionworks box",
-            "match": {
-              "location": "createAnAccountStepDefs.user_clicks_on_I_agree_to_receive_news_and_offers_from_Visionworks_box()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-<<<<<<< HEAD
-              "duration": 30114095312,
-=======
-              "duration": 76542816,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user clicks on Check this box to show you understand the Terms of Use box",
-            "match": {
-              "location": "createAnAccountStepDefs.user_clicks_on_Check_this_box_to_show_you_understand_the_Terms_of_Use_box()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1160818551,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user clicks on Agree \u0026 Create An Account Box",
-            "match": {
-              "location": "createAnAccountStepDefs.user_clicks_on_Agree_Create_An_Account_Box()"
-            },
-            "keyword": "Then "
-=======
-              "duration": 159951630,
->>>>>>> 4897cf6145ae83fe34e3cba40b297687a0f53bd0
-              "status": "passed"
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d70.0.3538.77)\n  (Driver info: chromedriver\u003d71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027LT-SAT00028\u0027, ip: \u0027172.17.90.33\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_191\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 71.0.3578.33 (269aa0e3f0db0..., userDataDir: C:\\Users\\jybarra\\AppData\\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50508}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}\nSession ID: 7bef0d9dd277d6fb0ad3272288cbaf20\n*** Element info: {Using\u003dxpath, value\u003d//p[@class\u003d\u0027p-name\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:344)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:423)\r\n\tat org.openqa.selenium.By$ByXPath.findElements(By.java:348)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:305)\r\n\tat com.visionworks.step_definitions.viewingFavoritesStepDefs.user_should_see_favorites(viewingFavoritesStepDefs.java:29)\r\n\tat ✽.user should see favorites(src/test/resources/com/visionworks/features/myFavorites/viewingFavorites.feature:7)\r\n",
+              "duration": 17070728314,
+              "status": "failed"
             },
             "line": 7,
             "name": "user should see favorites",
@@ -176,33 +81,20 @@
               "location": "viewingFavoritesStepDefs.user_should_see_favorites()"
             },
             "keyword": "Then "
->>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
           }
         ],
         "tags": [
           {
-<<<<<<< HEAD
-            "name": "@createAnAccount"
-=======
             "name": "@viewingFavorites"
->>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
           }
         ]
       }
     ],
-<<<<<<< HEAD
-    "name": "Create An Account",
-    "description": "",
-    "id": "create-an-account",
-    "keyword": "Feature",
-    "uri": "src/test/resources/com/visionworks/features/accountSettings/createAnAccount.feature",
-=======
     "name": "Viewing Favorites",
     "description": "",
     "id": "viewing-favorites",
     "keyword": "Feature",
     "uri": "src/test/resources/com/visionworks/features/myFavorites/viewingFavorites.feature",
->>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
     "tags": []
   }
 ]

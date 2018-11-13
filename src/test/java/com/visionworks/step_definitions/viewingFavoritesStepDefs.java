@@ -28,11 +28,12 @@ public class viewingFavoritesStepDefs {
 
 		List<WebElement> nameOfFavoriteItem = driver.findElements(By.xpath("//p[@class='p-name']"));
 		List<WebElement> reducedPrice = driver.findElements(By.xpath("//div[@class='p-price clearfix']"));
+		List<WebElement> originalPrice = driver.findElements(By.xpath("//s[@class = 'data-originalPrice']"));
 		System.out.println("Information About Favorites: ");
-		System.out.println("     NAME       REDUCED PRICE");
+		System.out.println("     NAME  ORIGINAL PRICE     REDUCED PRICE");
 		for (int i = 0; i < favorites.size(); i++) {
 			// System.out.println(favorites.get(i).getText());
-			System.out.println(nameOfFavoriteItem.get(i).getText() + "  ---> " + reducedPrice.get(i).getText());
+			System.out.println(nameOfFavoriteItem.get(i).getText() + "   " +originalPrice.get(i).getText() + "   " + reducedPrice.get(i).getText());
 		}
 	}
 }
