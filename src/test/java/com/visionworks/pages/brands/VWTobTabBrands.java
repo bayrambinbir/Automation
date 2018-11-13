@@ -6,8 +6,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.visionworks.utilities.Driver;
 
-public class VWbrands {
-	public VWbrands() {
+public class VWTobTabBrands {
+	public VWTobTabBrands() {
 		PageFactory.initElements(Driver.getDriver(), this);
 	}
 
@@ -61,6 +61,28 @@ public class VWbrands {
 	
 	@FindBy(xpath = "//a[@class='thumbnail'] [contains(@href,'/cole-haan')]")
 	public WebElement coleHaanTopTab;
+	
+	@FindBy(xpath = "(//a[@class='thumbnail'] [contains(@href,'/acuvue')])[2]")
+	public WebElement acuvueTopTab;
+	
+	@FindBy(xpath = "(//a[@class='thumbnail'] [contains(@href,'air-optix')])[2]")
+	public WebElement airOptixTopTab;
+	
+	@FindBy(xpath = "(//a[@class='thumbnail'] [contains(@href,'aquatech')])[2]")
+	public WebElement aquaTechTopTab;
+	
+	@FindBy(xpath = "(//a[@class='thumbnail'] [contains(@href,'dailies')])[2]")
+	public WebElement dailiesTopTab;
+	
+	@FindBy(xpath = "(//a[@class='thumbnail'] [contains(@href,'proclear')])[2]")
+	public WebElement proclearTopTab;
+	
+	@FindBy(xpath = "(//a[@class='thumbnail'] [contains(@href,'purevision')])[2]")
+	public WebElement pureVisionTopTab;
+	
+	
+	
+	
 	
 	
 	
