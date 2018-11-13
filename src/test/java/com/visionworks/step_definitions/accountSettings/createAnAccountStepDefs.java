@@ -1,4 +1,4 @@
-package com.visionworks.step_definitions;
+package com.visionworks.step_definitions.accountSettings;
 
 import org.openqa.selenium.WebDriver;
 

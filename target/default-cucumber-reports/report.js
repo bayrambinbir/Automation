@@ -1,20 +1,30 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/com/visionworks/features/offers/offersWithoutSignIn.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/com/visionworks/features/offers/offersWithSignIn.feature");
 formatter.feature({
-  "name": "Testing offers",
+  "name": "Offers with Sign in",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "User testing offers",
+  "name": "User is on the website and looking for offers",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@offersWitoutSignIn"
+      "name": "@offersWithSignIn"
     }
   ]
 });
 formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user signs in to the account",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "accountSettingsStepDefs.user_signs_in_to_the_account()"
+});
+formatter.result({
   "status": "passed"
 });
 formatter.step({

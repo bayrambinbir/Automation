@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="13.162501">
-<testcase classname="Testing offers" name="User testing offers" time="13.162501">
-<system-out><![CDATA[Given User clicks on offers top tab.........................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.923282">
+<testcase classname="Offers with Sign in" name="User is on the website and looking for offers" time="16.923282">
+<system-out><![CDATA[Given user signs in to the account..........................................passed
+Given User clicks on offers top tab.........................................passed
 Then user sees the Page title saying "Visionworks Offers, Discounts & Coupons on Glasses | Visionworks".passed
 Then User enters zip code...................................................passed
 And User clicks on Go button for zip code...................................passed

@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 2679047031,
+              "duration": 2615682327,
               "status": "passed"
             },
             "match": {
@@ -15,13 +15,13 @@
           }
         ],
         "line": 3,
-        "name": "User testing offers",
+        "name": "User is on the website and looking for offers",
         "description": "",
-        "id": "testing-offers;user-testing-offers",
+        "id": "offers-with-sign-in;user-is-on-the-website-and-looking-for-offers",
         "after": [
           {
             "result": {
-              "duration": 110718,
+              "duration": 60490,
               "status": "passed"
             },
             "match": {
@@ -34,10 +34,22 @@
         "steps": [
           {
             "result": {
-              "duration": 8227791577,
+              "duration": 8049793094,
               "status": "passed"
             },
             "line": 4,
+            "name": "user signs in to the account",
+            "match": {
+              "location": "accountSettingsStepDefs.user_signs_in_to_the_account()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3155317510,
+              "status": "passed"
+            },
+            "line": 5,
             "name": "User clicks on offers top tab",
             "match": {
               "location": "offersWithoutSignInStepDefs.user_clicks_on_offers_top_tab()"
@@ -46,10 +58,10 @@
           },
           {
             "result": {
-              "duration": 7210672,
+              "duration": 7303023,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "user sees the Page title saying \"Visionworks Offers, Discounts \u0026 Coupons on Glasses | Visionworks\"",
             "match": {
               "arguments": [
@@ -64,10 +76,10 @@
           },
           {
             "result": {
-              "duration": 85980424,
+              "duration": 72647851,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "User enters zip code",
             "match": {
               "location": "offersWithoutSignInStepDefs.user_enters_zip_code()"
@@ -76,10 +88,10 @@
           },
           {
             "result": {
-              "duration": 2094548330,
+              "duration": 2974099706,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User clicks on Go button for zip code",
             "match": {
               "location": "offersWithoutSignInStepDefs.user_clicks_on_Go_button_for_zip_code()"
@@ -88,10 +100,10 @@
           },
           {
             "result": {
-              "duration": 291105,
+              "duration": 288406,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "User sees the map with store locations",
             "match": {
               "location": "offersWithoutSignInStepDefs.user_sees_the_map_with_store_locations()"
@@ -100,10 +112,10 @@
           },
           {
             "result": {
-              "duration": 52274810,
+              "duration": 35081731,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "user sees how many stores are there in that area",
             "match": {
               "location": "offersWithoutSignInStepDefs.user_sees_how_many_stores_are_there_in_that_area()"
@@ -113,16 +125,16 @@
         ],
         "tags": [
           {
-            "name": "@offersWitoutSignIn"
+            "name": "@offersWithSignIn"
           }
         ]
       }
     ],
-    "name": "Testing offers",
+    "name": "Offers with Sign in",
     "description": "",
-    "id": "testing-offers",
+    "id": "offers-with-sign-in",
     "keyword": "Feature",
-    "uri": "src/test/resources/com/visionworks/features/offers/offersWithoutSignIn.feature",
+    "uri": "src/test/resources/com/visionworks/features/offers/offersWithSignIn.feature",
     "tags": []
   }
 ]
