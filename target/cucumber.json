@@ -6,15 +6,7 @@
         "before": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 3807269630,
-=======
-<<<<<<< HEAD
-              "duration": 5827646342,
-=======
-              "duration": 2536238513,
->>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
->>>>>>> 4897cf6145ae83fe34e3cba40b297687a0f53bd0
+              "duration": 3145265143,
               "status": "passed"
             },
             "match": {
@@ -23,27 +15,13 @@
           }
         ],
         "line": 3,
-<<<<<<< HEAD
-        "name": "User create an account",
-        "description": "",
-        "id": "create-an-account;user-create-an-account",
-        "after": [
-          {
-            "result": {
-              "duration": 92355,
-=======
         "name": "Favorites",
         "description": "",
         "id": "viewing-favorites;favorites",
         "after": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 66431,
-=======
-              "duration": 84253,
->>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
->>>>>>> 4897cf6145ae83fe34e3cba40b297687a0f53bd0
+              "duration": 74531,
               "status": "passed"
             },
             "match": {
@@ -56,18 +34,22 @@
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 11489913403,
-=======
-<<<<<<< HEAD
-              "duration": 4948769824,
-=======
-              "duration": 8735956483,
->>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
->>>>>>> 4897cf6145ae83fe34e3cba40b297687a0f53bd0
+              "duration": 9951594488,
               "status": "passed"
             },
             "line": 4,
+            "name": "user signs in to the account",
+            "match": {
+              "location": "accountSettingsStepDefs.user_signs_in_to_the_account()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3440683184,
+              "status": "passed"
+            },
+            "line": 5,
             "name": "user clicks on My Account main tab",
             "match": {
               "location": "createAnAccountStepDefs.user_clicks_on_My_Account_main_tab()"
@@ -76,98 +58,19 @@
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 2812559747,
-=======
-<<<<<<< HEAD
-              "duration": 1101910546,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user clicks on Create An Account",
-            "match": {
-              "location": "createAnAccountStepDefs.user_clicks_on_Create_An_Account()"
-=======
-              "duration": 1910057217,
->>>>>>> 4897cf6145ae83fe34e3cba40b297687a0f53bd0
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user clicks on My Account main tab",
-            "match": {
-              "location": "createAnAccountStepDefs.user_clicks_on_My_Account_main_tab()"
->>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-<<<<<<< HEAD
-              "duration": 1484513109,
-=======
-<<<<<<< HEAD
-              "duration": 812415983,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user fills out all the fields",
-            "match": {
-              "location": "createAnAccountStepDefs.user_fills_out_all_the_fields()"
-=======
-              "duration": 1334247874,
->>>>>>> 4897cf6145ae83fe34e3cba40b297687a0f53bd0
+              "duration": 1539120398,
               "status": "passed"
             },
             "line": 6,
             "name": "user clicks on My Favorites",
             "match": {
               "location": "viewingFavoritesStepDefs.user_clicks_on_My_Favorites()"
->>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
             },
             "keyword": "Then "
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 78468755,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user clicks on I agree to receive news and offers from Visionworks box",
-            "match": {
-              "location": "createAnAccountStepDefs.user_clicks_on_I_agree_to_receive_news_and_offers_from_Visionworks_box()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-<<<<<<< HEAD
-              "duration": 30114095312,
-=======
-              "duration": 76542816,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user clicks on Check this box to show you understand the Terms of Use box",
-            "match": {
-              "location": "createAnAccountStepDefs.user_clicks_on_Check_this_box_to_show_you_understand_the_Terms_of_Use_box()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1160818551,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user clicks on Agree \u0026 Create An Account Box",
-            "match": {
-              "location": "createAnAccountStepDefs.user_clicks_on_Agree_Create_An_Account_Box()"
-            },
-            "keyword": "Then "
-=======
-              "duration": 159951630,
->>>>>>> 4897cf6145ae83fe34e3cba40b297687a0f53bd0
+              "duration": 188991373,
               "status": "passed"
             },
             "line": 7,
@@ -176,33 +79,20 @@
               "location": "viewingFavoritesStepDefs.user_should_see_favorites()"
             },
             "keyword": "Then "
->>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
           }
         ],
         "tags": [
           {
-<<<<<<< HEAD
-            "name": "@createAnAccount"
-=======
             "name": "@viewingFavorites"
->>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
           }
         ]
       }
     ],
-<<<<<<< HEAD
-    "name": "Create An Account",
-    "description": "",
-    "id": "create-an-account",
-    "keyword": "Feature",
-    "uri": "src/test/resources/com/visionworks/features/accountSettings/createAnAccount.feature",
-=======
     "name": "Viewing Favorites",
     "description": "",
     "id": "viewing-favorites",
     "keyword": "Feature",
     "uri": "src/test/resources/com/visionworks/features/myFavorites/viewingFavorites.feature",
->>>>>>> b690df98b1d0029658cf0a25b046211304967ef5
     "tags": []
   }
 ]
