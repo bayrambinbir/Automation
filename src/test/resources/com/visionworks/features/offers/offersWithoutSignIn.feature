@@ -5,3 +5,4 @@ Scenario: User testing offers
 	Then User enters zip code 
 	And User clicks on Go button for zip code 
 	Then User sees the map with store locations
+	Then user sees how many stores are there in that area

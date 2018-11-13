@@ -57,6 +57,16 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.step({
+  "name": "user sees how many stores are there in that area",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "offersWithoutSignInStepDefs.user_sees_how_many_stores_are_there_in_that_area()"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.after({
   "status": "passed"
 });

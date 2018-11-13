@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="10.562615">
-<testcase classname="Testing offers" name="User testing offers" time="10.562615">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.301613">
+<testcase classname="Testing offers" name="User testing offers" time="11.301613">
 <system-out><![CDATA[Given User clicks on offers top tab.........................................passed
 Then User enters zip code...................................................passed
 And User clicks on Go button for zip code...................................passed
 Then User sees the map with store locations.................................passed
+Then user sees how many stores are there in that area.......................passed
 ]]></system-out>
 </testcase>
 </testsuite>

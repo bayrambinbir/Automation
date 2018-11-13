@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 2633914698,
+              "duration": 2972976315,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 63190,
+              "duration": 117199,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6130532960,
+              "duration": 6045166214,
               "status": "passed"
             },
             "line": 4,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 102607365,
+              "duration": 99404232,
               "status": "passed"
             },
             "line": 5,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 1678840526,
+              "duration": 2130904680,
               "status": "passed"
             },
             "line": 6,
@@ -70,13 +70,25 @@
           },
           {
             "result": {
-              "duration": 218194,
+              "duration": 285705,
               "status": "passed"
             },
             "line": 7,
             "name": "User sees the map with store locations",
             "match": {
               "location": "offersWithoutSignInStepDefs.user_sees_the_map_with_store_locations()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39828016,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user sees how many stores are there in that area",
+            "match": {
+              "location": "offersWithoutSignInStepDefs.user_sees_how_many_stores_are_there_in_that_area()"
             },
             "keyword": "Then "
           }
