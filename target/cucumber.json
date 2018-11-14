@@ -6,7 +6,8 @@
         "before": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 2718274472,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.setUp()"
@@ -14,13 +15,14 @@
           }
         ],
         "line": 3,
-        "name": "User is on the website and looking for offers",
+        "name": "User wants to see all glasses for a brand",
         "description": "",
-        "id": "offers-with-sign-in;user-is-on-the-website-and-looking-for-offers",
+        "id": "viewing-brands;user-wants-to-see-all-glasses-for-a-brand",
         "after": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 61569,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
@@ -32,44 +34,89 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 8672246283,
+              "status": "passed"
             },
             "line": 4,
-            "name": "when this happens",
-            "match": {},
+            "name": "user signs in to the account",
+            "match": {
+              "location": "accountSettingsStepDefs.user_signs_in_to_the_account()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 234306080,
+              "status": "passed"
             },
             "line": 5,
-            "name": "this happens",
-            "match": {},
+            "name": "user clicks on Brands top tab",
+            "match": {
+              "location": "viewingBrandStepDefs.user_clicks_on_Brands_top_tab()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1629668156,
+              "status": "passed"
             },
             "line": 6,
-            "name": "this also happens",
-            "match": {},
+            "name": "user selects a brand",
+            "match": {
+              "location": "viewingBrandStepDefs.user_selects_a_brand()"
+            },
             "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 291646,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should see all glasses available for chosen brand",
+            "match": {
+              "location": "viewingBrandStepDefs.user_should_see_all_glasses_available_for_chosen_brand()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1286361616,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user chooses newest glasses from the drop down filter",
+            "match": {
+              "location": "viewingBrandStepDefs.user_chooses_newest_glasses_from_the_drop_down_filter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 143290985,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user sees the price and name of first three glasses- from left to right",
+            "match": {
+              "location": "viewingBrandStepDefs.user_sees_the_price_and_name_of_first_three_glasses_from_left_to_right()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@practice"
+            "name": "@viewingBrand"
           }
         ]
       }
     ],
-    "name": "Offers with Sign in",
+    "name": "Viewing brands",
     "description": "",
-    "id": "offers-with-sign-in",
+    "id": "viewing-brands",
     "keyword": "Feature",
-    "uri": "src/test/resources/com/visionworks/features/offers/pract.feature",
+    "uri": "src/test/resources/com/visionworks/features/brands/viewingBrand.feature",
     "tags": []
   }
 ]

@@ -6,8 +6,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.visionworks.utilities.Driver;
 
-public class VWTobTabBrands {
-	public VWTobTabBrands() {
+public class VWTopTabBrands { 
+	public VWTopTabBrands() {
 		PageFactory.initElements(Driver.getDriver(), this);
 	}
 

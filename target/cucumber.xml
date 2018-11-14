@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0.013869">
-<testcase classname="Offers with Sign in" name="User is on the website and looking for offers" time="0.013869">
-<skipped><![CDATA[Given when this happens.....................................................undefined
-Then this happens...........................................................undefined
-And this also happens.......................................................undefined
-]]></skipped>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.695982">
+<testcase classname="Viewing brands" name="User wants to see all glasses for a brand" time="14.695982">
+<system-out><![CDATA[Given user signs in to the account..........................................passed
+Then user clicks on Brands top tab..........................................passed
+And user selects a brand....................................................passed
+Then user should see all glasses available for chosen brand.................passed
+Then user chooses newest glasses from the drop down filter..................passed
+Then user sees the price and name of first three glasses- from left to right.passed
+]]></system-out>
 </testcase>
 </testsuite>
