@@ -6,8 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 2615682327,
-              "status": "passed"
+              "status": "skipped"
             },
             "match": {
               "location": "Hooks.setUp()"
@@ -21,8 +20,7 @@
         "after": [
           {
             "result": {
-              "duration": 60490,
-              "status": "passed"
+              "status": "skipped"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
@@ -34,98 +32,35 @@
         "steps": [
           {
             "result": {
-              "duration": 8049793094,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 4,
-            "name": "user signs in to the account",
-            "match": {
-              "location": "accountSettingsStepDefs.user_signs_in_to_the_account()"
-            },
+            "name": "when this happens",
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 3155317510,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 5,
-            "name": "User clicks on offers top tab",
-            "match": {
-              "location": "offersWithoutSignInStepDefs.user_clicks_on_offers_top_tab()"
-            },
-            "keyword": "Given "
+            "name": "this happens",
+            "match": {},
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 7303023,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 6,
-            "name": "user sees the Page title saying \"Visionworks Offers, Discounts \u0026 Coupons on Glasses | Visionworks\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Visionworks Offers, Discounts \u0026 Coupons on Glasses | Visionworks\"",
-                  "offset": 32
-                }
-              ],
-              "location": "offersWithoutSignInStepDefs.user_sees_the_Page_title_saying(String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 72647851,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User enters zip code",
-            "match": {
-              "location": "offersWithoutSignInStepDefs.user_enters_zip_code()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2974099706,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User clicks on Go button for zip code",
-            "match": {
-              "location": "offersWithoutSignInStepDefs.user_clicks_on_Go_button_for_zip_code()"
-            },
+            "name": "this also happens",
+            "match": {},
             "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 288406,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User sees the map with store locations",
-            "match": {
-              "location": "offersWithoutSignInStepDefs.user_sees_the_map_with_store_locations()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 35081731,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user sees how many stores are there in that area",
-            "match": {
-              "location": "offersWithoutSignInStepDefs.user_sees_how_many_stores_are_there_in_that_area()"
-            },
-            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@offersWithSignIn"
+            "name": "@practice"
           }
         ]
       }
@@ -134,7 +69,7 @@
     "description": "",
     "id": "offers-with-sign-in",
     "keyword": "Feature",
-    "uri": "src/test/resources/com/visionworks/features/offers/offersWithSignIn.feature",
+    "uri": "src/test/resources/com/visionworks/features/offers/pract.feature",
     "tags": []
   }
 ]
