@@ -23,5 +23,22 @@ public class VWcontactGlassesShopByType {
 	@FindBy(xpath = "//a[@class='text-inverted'] [contains(text(),'Monthly')]")
 	public WebElement monthlyUnderContactLenses;
 	
+	@FindBy(xpath = "//a[@class='text-inverted'] [contains(text(),'Multifocal')]")
+	public WebElement multiFocalUnderContactLenses;
+	
+	@FindBy(xpath = "//a[@class='text-inverted'] [contains(text(),'Quarterly')]")
+	public WebElement quarterlyUnderContactLenses;
+	
+	@FindBy(xpath = "//a[@class='text-inverted'] [contains(text(),'Sphere')]")
+	public WebElement sphereUnderContactLenses;
+	
+	@FindBy(xpath = "//a[@class='text-inverted'] [contains(text(),'Toric & Astigmatism')]")
+	public WebElement toricAndAstigmatismUnderContactLenses;
+	
+	@FindBy(xpath = "//a[@class='text-inverted'] [contains(text(),'Yearly')]")
+	public WebElement yearlyUnderContactLenses;
+	
+	
+	
 
 }
