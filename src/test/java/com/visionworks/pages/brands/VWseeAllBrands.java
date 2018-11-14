@@ -122,17 +122,83 @@ public class VWseeAllBrands {
 	@FindBy(xpath = "//a[contains(text(),'Jones NY')]")
 	public WebElement jonesNyUnderSeeAllBrands;
 	
+	@FindBy(xpath = "//a[contains(text(),'Joseph Abboud')]")
+	public WebElement josephAbboudUnderSeeAllBrands;
 	
+	@FindBy(xpath = "//a[contains(text(),'Kate Spade')]")
+	public WebElement kateSpadeUnderSeeAllBrands;
 	
+	@FindBy(xpath = "//a[contains(text(),'Kenneth Cole')]")
+	public WebElement kennethColeUnderSeeAllBrands;
 	
+	@FindBy(xpath = "//a[contains(text(),'Kensie')]")
+	public WebElement kensieUnderSeeAllBrands;
 	
+	@FindBy(xpath = "//a[contains(text(),'L.A.M.B')]")
+	public WebElement lambUnderSeeAllBrands;
 	
+	@FindBy(xpath = "//a[contains(text(),'Lacoste')]")
+	public WebElement lacosteUnderSeeAllBrands;
 	
+	@FindBy(xpath = "//a[contains(text(),'Leon Max')]")
+	public WebElement leonMaxUnderSeeAllBrands;
 	
+	@FindBy(xpath = "//a[contains(text(),'Longchamp')]")
+	public WebElement longChampUnderSeeAllBrands;
 	
+	@FindBy(xpath = "//a[contains(text(),'Max Studio')]")
+	public WebElement maxStudioUnderSeeAllBrands;
 	
+	@FindBy(xpath = "//a[contains(text(),'Michael Kors')]")
+	public WebElement michaelKorsUnderSeeAllBrands;
 	
+	@FindBy(xpath = "//a[contains(text(),'Nike')]")
+	public WebElement nikeUnderSeeAllBrands;
 	
+	@FindBy(xpath = "//a[contains(text(),'Nine West')]")
+	public WebElement nineWestUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Neill')]")
+	public WebElement oNeillUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'OTIS+GREY')]")
+	public WebElement otisGreyUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'PAW Patrol')]")
+	public WebElement pawPatrolUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Penguin')]")
+	public WebElement penguinPatrolUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Perry Ellis')]")
+	public WebElement perryEllisUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Rampage')]")
+	public WebElement rampageUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Randy Jackson')]")
+	public WebElement randyJacksonUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Ray-Ban')]")
+	public WebElement rayBanUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Raycers')]")
+	public WebElement raycersUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Realtree')]")
+	public WebElement realTreeUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Robert Mitchel')]")
+	public WebElement robertMitchelUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Salsa')]")
+	public WebElement salsaUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'Skechers')]")
+	public WebElement skecherUnderSeeAllBrands;
+	
+	@FindBy(xpath = "//a[contains(text(),'South Hampton')]")
+	public WebElement southHamptonUnderSeeAllBrands;
 	
 	
 	
