@@ -27,6 +27,4 @@ public class VWsortDropdownMenu {
 	
 	@FindBy(xpath = "//span[contains(text(), 'Newest')]")
 	public WebElement newest;
-	
-
 }

@@ -1,4 +1,4 @@
-package com.visionworks.pages.contactGlasses;
+package com.visionworks.pages.contactLenses;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -6,9 +6,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.visionworks.utilities.Driver;
 
-public class VWcontactGlassesShopByBrand {
+public class VWcontactLensesShopByBrand {
 
-	public VWcontactGlassesShopByBrand() {
+	public VWcontactLensesShopByBrand() {
 		PageFactory.initElements(Driver.getDriver(), this);
 	}
 	@FindBy(xpath = "//*[contains(text(),'CONTACT LENSES')]")
