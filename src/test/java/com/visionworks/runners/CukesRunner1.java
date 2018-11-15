@@ -12,13 +12,13 @@ import cucumber.api.junit.Cucumber;
 				"html:target/default-cucumber-reports", //generates every time we run the cukes runner
 				"json:target/cucumber.json",
 				"junit:target/cucumber.xml"
-		// mvn verify -Dcucumber.options="--tags @smoke" --> This is being used in Powershell when we want to see
+		// mvn verify -Dcucumber.options="--tags @viewingFavorites" --> This is being used in Powershell when we want to see
 		// cucumber reports under target folder (default-cucumber reports)
 		},
 		
 
 
-		tags= "@addShippingAddressFromExcel",
+		tags= "@viewingFavorites",
 //		features= {"src/test/resources/com/prestashop/features", 
 //				"src/test/resources/com/ct_bnb/features"}, 
 		features = "src/test/resources/com/visionworks/features", 

@@ -2,7 +2,7 @@ package com.visionworks.step_definitions.accountSettings;
 
 import org.openqa.selenium.WebDriver;
 
-import com.visionworks.pages.homePageTobTabs.VWtopTabs;
+import com.visionworks.pages.homePageTopTabs.VWtopTabs;
 import com.visionworks.pages.myAccount.VWsignInAndCreateAccount;
 import com.visionworks.utilities.Driver;
 
