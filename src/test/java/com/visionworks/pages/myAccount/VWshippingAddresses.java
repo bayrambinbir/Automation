@@ -49,6 +49,10 @@ public class VWshippingAddresses {
 	@FindBy (id = "state")
 	public WebElement stateForShippingAddress;
 	
+	@FindBy (xpath = "//option[contains(text(),'')]")
+	public WebElement states;
+	
+	
 	@FindBy (xpath = "//*[@id='state']/option[45]")
 	public WebElement texasForShippingAddress;
 	

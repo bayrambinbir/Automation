@@ -17,7 +17,11 @@ import cucumber.api.junit.Cucumber;
 		},
 		
 
+<<<<<<< HEAD
 		tags= "@frameBrands",
+=======
+		tags= "@addShippingAddressFromExcel",
+>>>>>>> 0938d54ba0410e6dcece98388e3608e51c05a899
 //		features= {"src/test/resources/com/prestashop/features", 
 //				"src/test/resources/com/ct_bnb/features"}, 
 		features = "src/test/resources/com/visionworks/features", 
