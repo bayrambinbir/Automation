@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 3349493562,
+              "duration": 2961988830,
               "status": "passed"
             },
             "match": {
@@ -15,13 +15,13 @@
           }
         ],
         "line": 3,
-        "name": "User wants to see all glasses for a brand",
+        "name": "User wants to see all brands of frames available",
         "description": "",
-        "id": "viewing-brands;user-wants-to-see-all-glasses-for-a-brand",
+        "id": "viewing-all-brands-of-frames;user-wants-to-see-all-brands-of-frames-available",
         "after": [
           {
             "result": {
-              "duration": 64271,
+              "duration": 275443,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 21722623925,
+              "duration": 12942127210,
               "status": "passed"
             },
             "line": 4,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 318152457,
+              "duration": 222405851,
               "status": "passed"
             },
             "line": 5,
@@ -58,65 +58,41 @@
           },
           {
             "result": {
-              "duration": 4970195975,
+              "duration": 1196433712,
               "status": "passed"
             },
             "line": 6,
-            "name": "user selects a brand",
+            "name": "user clicks on See All Brands",
             "match": {
-              "location": "viewingBrandStepDefs.user_selects_a_brand()"
+              "location": "frameBrandsStepDefs.user_clicks_on_See_All_Brands()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 484455,
+              "duration": 1101233,
               "status": "passed"
             },
             "line": 7,
-            "name": "user should see all glasses available for chosen brand",
+            "name": "user should see all frame brands",
             "match": {
-              "location": "viewingBrandStepDefs.user_should_see_all_glasses_available_for_chosen_brand()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1112895491,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user chooses newest glasses from the drop down filter",
-            "match": {
-              "location": "viewingBrandStepDefs.user_chooses_newest_glasses_from_the_drop_down_filter()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 628649757,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user sees the price and name of first three glasses- from left to right",
-            "match": {
-              "location": "viewingBrandStepDefs.user_sees_the_price_and_name_of_first_three_glasses_from_left_to_right()"
+              "location": "frameBrandsStepDefs.user_should_see_all_frame_brands()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@viewingBrand"
+            "name": "@frameBrands"
           }
         ]
       }
     ],
-    "name": "Viewing brands",
+    "name": "Viewing all brands of frames",
     "description": "",
-    "id": "viewing-brands",
+    "id": "viewing-all-brands-of-frames",
     "keyword": "Feature",
-    "uri": "src/test/resources/com/visionworks/features/brands/viewingBrand.feature",
+    "uri": "src/test/resources/com/visionworks/features/brands/allBrandsFrames.feature",
     "tags": []
   }
 ]

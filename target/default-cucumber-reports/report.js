@@ -1,16 +1,16 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/com/visionworks/features/brands/viewingBrand.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/com/visionworks/features/brands/allBrandsFrames.feature");
 formatter.feature({
-  "name": "Viewing brands",
+  "name": "Viewing all brands of frames",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "User wants to see all glasses for a brand",
+  "name": "User wants to see all brands of frames available",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@viewingBrand"
+      "name": "@frameBrands"
     }
   ]
 });
@@ -38,41 +38,21 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user selects a brand",
+  "name": "user clicks on See All Brands",
   "keyword": "And "
 });
 formatter.match({
-  "location": "viewingBrandStepDefs.user_selects_a_brand()"
+  "location": "frameBrandsStepDefs.user_clicks_on_See_All_Brands()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user should see all glasses available for chosen brand",
+  "name": "user should see all frame brands",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "viewingBrandStepDefs.user_should_see_all_glasses_available_for_chosen_brand()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user chooses newest glasses from the drop down filter",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "viewingBrandStepDefs.user_chooses_newest_glasses_from_the_drop_down_filter()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user sees the price and name of first three glasses- from left to right",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "viewingBrandStepDefs.user_sees_the_price_and_name_of_first_three_glasses_from_left_to_right()"
+  "location": "frameBrandsStepDefs.user_should_see_all_frame_brands()"
 });
 formatter.result({
   "status": "passed"
