@@ -1,16 +1,16 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/com/visionworks/features/brands/viewingBrand.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/com/visionworks/features/shippingAddresses/addShiipingAddressFromExcelFile.feature");
 formatter.feature({
-  "name": "Viewing brands",
+  "name": "Shipping Addresses",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "User wants to see all glasses for a brand",
+  "name": "Add a new shipping address",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@viewingBrand"
+      "name": "@addShippingAddressFromExcel"
     }
   ]
 });
@@ -28,51 +28,51 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user clicks on Brands top tab",
+  "name": "user clicks on My Account",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "viewingBrandStepDefs.user_clicks_on_Brands_top_tab()"
+  "location": "accountSettingsStepDefs.user_clicks_on_My_Account()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user selects a brand",
+  "name": "user clicks on Manage Addresses",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "addShippingAddressStepDefs.user_clicks_on_Manage_Addresses()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on Add New Address button",
   "keyword": "And "
 });
 formatter.match({
-  "location": "viewingBrandStepDefs.user_selects_a_brand()"
+  "location": "addShippingAddressStepDefs.user_clicks_on_Add_New_Address_button()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user should see all glasses available for chosen brand",
+  "name": "user fills all information from Excel file",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "viewingBrandStepDefs.user_should_see_all_glasses_available_for_chosen_brand()"
+  "location": "addShippingAdressFromExcelFileStepDefs.user_fills_all_information_from_Excel_file()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user chooses newest glasses from the drop down filter",
-  "keyword": "Then "
+  "name": "user clicks on Save button",
+  "keyword": "And "
 });
 formatter.match({
-  "location": "viewingBrandStepDefs.user_chooses_newest_glasses_from_the_drop_down_filter()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user sees the price and name of first three glasses- from left to right",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "viewingBrandStepDefs.user_sees_the_price_and_name_of_first_three_glasses_from_left_to_right()"
+  "location": "addShippingAddressStepDefs.user_clicks_on_Save_button()"
 });
 formatter.result({
   "status": "passed"
