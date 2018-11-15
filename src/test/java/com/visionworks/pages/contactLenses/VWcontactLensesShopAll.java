@@ -26,6 +26,115 @@ public class VWcontactLensesShopAll {
 	@FindBy(xpath = "(//*[contains(text(),'BRAND')])[3]")
 	public WebElement brandDropDownButton;
 	
+	@FindBy(id = "searchinput")
+	public WebElement typeYourBrandHereBox;
+	
+	@FindBy(xpath = "//span[contains(text(),'Acuvue')]")
+	public WebElement acuvueCheckBoxUnderBrand;
+	
+	@FindBy(xpath = "//span[contains(text(),'Air Optix')]")
+	public WebElement airOptixCheckBoxUnderBrand;
+	
+	@FindBy(xpath = "//span[contains(text(),'Aquatech')]")
+	public WebElement aquaTechCheckBoxUnderBrand;
+	
+	@FindBy(xpath = "//span[contains(text(),'Avaira')]")
+	public WebElement avairaCheckBoxUnderBrand;
+	
+	@FindBy(xpath = "//span[contains(text(),'Biofinity')]")
+	public WebElement biofinityCheckBoxUnderBrand;
+	
+	@FindBy(xpath = "//span[contains(text(),'Biomedics')]")
+	public WebElement biomedicsCheckBoxUnderBrand;
+	
+	@FindBy(xpath = "//span[contains(text(),'Biotrue')]")
+	public WebElement biotrueCheckBoxUnderBrand;
+	
+	@FindBy(xpath = "//span[contains(text(),'Clariti')]")
+	public WebElement claritiCheckBoxUnderBrand;
+	
+	@FindBy(xpath = "//span[contains(text(),'ClearSight')]")
+	public WebElement clearSightCheckBoxUnderBrand;
+	
+	@FindBy(xpath = "//span[contains(text(),'Dailies')]")
+	public WebElement dailiesCheckBoxUnderBrand;
+	
+	@FindBy(xpath = "//span[contains(text(),'Expressions')]")
+	public WebElement expressionsCheckBoxUnderBrand;
+	
+	@FindBy(xpath = "//span[contains(text(),'Focus')]")
+	public WebElement focusCheckBoxUnderBrand;
+	
+	@FindBy(xpath = "//span[contains(text(),'Frequency')]")
+	public WebElement frequencyCheckBoxUnderBrand;
+	
+	@FindBy(xpath = "//span[contains(text(),'FreshLook')]")
+	public WebElement freshLookCheckBoxUnderBrand;
+	
+	@FindBy(xpath = "//span[contains(text(),'Hydrasoft')]")
+	public WebElement hydrasoftCheckBoxUnderBrand;
+	
+	@FindBy(xpath = "//span[contains(text(),'Myday')]")
+	public WebElement mydayCheckBoxUnderBrand;
+	
+	@FindBy(xpath = "//span[contains(text(),'Optima')]")
+	public WebElement optimaCheckBoxUnderBrand;
+	
+	@FindBy(xpath = "//span[contains(text(),'Preference')]")
+	public WebElement preferenceCheckBoxUnderBrand;
+	
+	@FindBy(xpath = "//span[contains(text(),'Proclear')]")
+	public WebElement procleareCheckBoxUnderBrand;
+	
+	@FindBy(xpath = "//span[contains(text(),'PureVision')]")
+	public WebElement pureVisionCheckBoxUnderBrand;
+	
+	@FindBy(xpath = "//span[contains(text(),'Silsoft')]")
+	public WebElement silsoftCheckBoxUnderBrand;
+	
+	@FindBy(xpath = "//span[contains(text(),'Soflens')]")
+	public WebElement soflensCheckBoxUnderBrand;
+	
+	@FindBy(xpath = "//span[contains(text(),'Ultra')]")
+	public WebElement ultraCheckBoxUnderBrand;
+	
+	@FindBy(xpath = "//span[contains(text(),'Vertex')]")
+	public WebElement vertexCheckBoxUnderBrand;
+	
+	@FindBy(xpath = "(//a[@class='clear'][contains(text(),'Clear')])[2]")
+	public WebElement clearButtonUnderBrand;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 }
