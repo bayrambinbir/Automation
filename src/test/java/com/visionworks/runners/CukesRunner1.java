@@ -12,7 +12,8 @@ import cucumber.api.junit.Cucumber;
 				"html:target/default-cucumber-reports", //generates every time we run the cukes runner
 				"json:target/cucumber.json",
 				"junit:target/cucumber.xml"
-		
+		// mvn verify -Dcucumber.options="--tags @smoke" --> This is being used in Powershell when we want to see
+		// cucumber reports under target folder (default-cucumber reports)
 		},
 		
 
