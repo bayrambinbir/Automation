@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 3349493562,
+              "duration": 2876464845,
               "status": "passed"
             },
             "match": {
@@ -15,13 +15,13 @@
           }
         ],
         "line": 3,
-        "name": "User wants to see all glasses for a brand",
+        "name": "Add a new shipping address",
         "description": "",
-        "id": "viewing-brands;user-wants-to-see-all-glasses-for-a-brand",
+        "id": "shipping-addresses;add-a-new-shipping-address",
         "after": [
           {
             "result": {
-              "duration": 64271,
+              "duration": 221435,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 21722623925,
+              "duration": 20807425298,
               "status": "passed"
             },
             "line": 4,
@@ -46,77 +46,77 @@
           },
           {
             "result": {
-              "duration": 318152457,
+              "duration": 2107536771,
               "status": "passed"
             },
             "line": 5,
-            "name": "user clicks on Brands top tab",
+            "name": "user clicks on My Account",
             "match": {
-              "location": "viewingBrandStepDefs.user_clicks_on_Brands_top_tab()"
+              "location": "accountSettingsStepDefs.user_clicks_on_My_Account()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 4970195975,
+              "duration": 1308609703,
               "status": "passed"
             },
             "line": 6,
-            "name": "user selects a brand",
+            "name": "user clicks on Manage Addresses",
             "match": {
-              "location": "viewingBrandStepDefs.user_selects_a_brand()"
+              "location": "addShippingAddressStepDefs.user_clicks_on_Manage_Addresses()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2742893838,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Add New Address button",
+            "match": {
+              "location": "addShippingAddressStepDefs.user_clicks_on_Add_New_Address_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 484455,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user should see all glasses available for chosen brand",
-            "match": {
-              "location": "viewingBrandStepDefs.user_should_see_all_glasses_available_for_chosen_brand()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1112895491,
+              "duration": 1279295535,
               "status": "passed"
             },
             "line": 8,
-            "name": "user chooses newest glasses from the drop down filter",
+            "name": "user fills all information from Excel file",
             "match": {
-              "location": "viewingBrandStepDefs.user_chooses_newest_glasses_from_the_drop_down_filter()"
+              "location": "addShippingAdressFromExcelFileStepDefs.user_fills_all_information_from_Excel_file()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 628649757,
+              "duration": 178975914,
               "status": "passed"
             },
             "line": 9,
-            "name": "user sees the price and name of first three glasses- from left to right",
+            "name": "user clicks on Save button",
             "match": {
-              "location": "viewingBrandStepDefs.user_sees_the_price_and_name_of_first_three_glasses_from_left_to_right()"
+              "location": "addShippingAddressStepDefs.user_clicks_on_Save_button()"
             },
-            "keyword": "Then "
+            "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@viewingBrand"
+            "name": "@addShippingAddressFromExcel"
           }
         ]
       }
     ],
-    "name": "Viewing brands",
+    "name": "Shipping Addresses",
     "description": "",
-    "id": "viewing-brands",
+    "id": "shipping-addresses",
     "keyword": "Feature",
-    "uri": "src/test/resources/com/visionworks/features/brands/viewingBrand.feature",
+    "uri": "src/test/resources/com/visionworks/features/shippingAddresses/addShiipingAddressFromExcelFile.feature",
     "tags": []
   }
 ]

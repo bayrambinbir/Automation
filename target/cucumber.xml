@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="32.115507">
-<testcase classname="Viewing brands" name="User wants to see all glasses for a brand" time="32.115507">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="31.314418">
+<testcase classname="Shipping Addresses" name="Add a new shipping address" time="31.314418">
 <system-out><![CDATA[Given user signs in to the account..........................................passed
-Then user clicks on Brands top tab..........................................passed
-And user selects a brand....................................................passed
-Then user should see all glasses available for chosen brand.................passed
-Then user chooses newest glasses from the drop down filter..................passed
-Then user sees the price and name of first three glasses- from left to right.passed
+Then user clicks on My Account..............................................passed
+Then user clicks on Manage Addresses........................................passed
+And user clicks on Add New Address button...................................passed
+Then user fills all information from Excel file.............................passed
+And user clicks on Save button..............................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
