@@ -52,7 +52,7 @@ public class addShippingAdressFromExcelFileStepDefs {
 		shippingAddresses.texasForShippingAddress.click();
 
 		System.out.println("Zip Code is:" + fileData.get(0).get("ZipCode")); // Output is 78205.0
-		// shippingAddresses.zipCodeForShippingAddress.sendKeys(fileData.get(0).get("ZipCode"));
+		//shippingAddresses.zipCodeForShippingAddress.sendKeys(fileData.get(0).get("ZipCode"));
 		shippingAddresses.zipCodeForShippingAddress.sendKeys("78205");
 
 	}

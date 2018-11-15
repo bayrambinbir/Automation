@@ -1,18 +1,6 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.339599">
-<testcase classname="Viewing all brands of frames" name="User wants to see all brands of frames available" time="17.339599">
-<system-out><![CDATA[Given user signs in to the account..........................................passed
-Then user clicks on Brands top tab..........................................passed
-And user clicks on See All Brands...........................................passed
-Then user should see all frame brands.......................................passed
-]]></system-out>
-</testcase>
-</testsuite>
-=======
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="31.314418">
-<testcase classname="Shipping Addresses" name="Add a new shipping address" time="31.314418">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="26.929125">
+<testcase classname="Shipping Addresses" name="Add a new shipping address" time="26.929125">
 <system-out><![CDATA[Given user signs in to the account..........................................passed
 Then user clicks on My Account..............................................passed
 Then user clicks on Manage Addresses........................................passed
@@ -22,4 +10,3 @@ And user clicks on Save button..............................................pass
 ]]></system-out>
 </testcase>
 </testsuite>
->>>>>>> 0938d54ba0410e6dcece98388e3608e51c05a899

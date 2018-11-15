@@ -1,4 +1,4 @@
-package com.visionworks.pages.homePageTobTabs;
+package com.visionworks.pages.homePageTopTabs;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

@@ -6,11 +6,7 @@
         "before": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 2961988830,
-=======
-              "duration": 2876464845,
->>>>>>> 0938d54ba0410e6dcece98388e3608e51c05a899
+              "duration": 2874980084,
               "status": "passed"
             },
             "match": {
@@ -19,23 +15,13 @@
           }
         ],
         "line": 3,
-<<<<<<< HEAD
-        "name": "User wants to see all brands of frames available",
-        "description": "",
-        "id": "viewing-all-brands-of-frames;user-wants-to-see-all-brands-of-frames-available",
-        "after": [
-          {
-            "result": {
-              "duration": 275443,
-=======
         "name": "Add a new shipping address",
         "description": "",
         "id": "shipping-addresses;add-a-new-shipping-address",
         "after": [
           {
             "result": {
-              "duration": 221435,
->>>>>>> 0938d54ba0410e6dcece98388e3608e51c05a899
+              "duration": 171207,
               "status": "passed"
             },
             "match": {
@@ -48,11 +34,7 @@
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 12942127210,
-=======
-              "duration": 20807425298,
->>>>>>> 0938d54ba0410e6dcece98388e3608e51c05a899
+              "duration": 19155128025,
               "status": "passed"
             },
             "line": 4,
@@ -64,11 +46,7 @@
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 222405851,
-=======
-              "duration": 2107536771,
->>>>>>> 0938d54ba0410e6dcece98388e3608e51c05a899
+              "duration": 1292401384,
               "status": "passed"
             },
             "line": 5,
@@ -80,38 +58,19 @@
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 1196433712,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks on See All Brands",
-            "match": {
-              "location": "frameBrandsStepDefs.user_clicks_on_See_All_Brands()"
-=======
-              "duration": 1308609703,
+              "duration": 1104088389,
               "status": "passed"
             },
             "line": 6,
             "name": "user clicks on Manage Addresses",
             "match": {
               "location": "addShippingAddressStepDefs.user_clicks_on_Manage_Addresses()"
->>>>>>> 0938d54ba0410e6dcece98388e3608e51c05a899
             },
             "keyword": "Then "
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 1101233,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user should see all frame brands",
-            "match": {
-              "location": "frameBrandsStepDefs.user_should_see_all_frame_brands()"
-=======
-              "duration": 2742893838,
+              "duration": 1033179031,
               "status": "passed"
             },
             "line": 7,
@@ -123,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 1279295535,
+              "duration": 1293865014,
               "status": "passed"
             },
             "line": 8,
@@ -135,42 +94,29 @@
           },
           {
             "result": {
-              "duration": 178975914,
+              "duration": 161796992,
               "status": "passed"
             },
             "line": 9,
             "name": "user clicks on Save button",
             "match": {
               "location": "addShippingAddressStepDefs.user_clicks_on_Save_button()"
->>>>>>> 0938d54ba0410e6dcece98388e3608e51c05a899
             },
             "keyword": "And "
           }
         ],
         "tags": [
           {
-<<<<<<< HEAD
-            "name": "@frameBrands"
-=======
             "name": "@addShippingAddressFromExcel"
->>>>>>> 0938d54ba0410e6dcece98388e3608e51c05a899
           }
         ]
       }
     ],
-<<<<<<< HEAD
-    "name": "Viewing all brands of frames",
-    "description": "",
-    "id": "viewing-all-brands-of-frames",
-    "keyword": "Feature",
-    "uri": "src/test/resources/com/visionworks/features/brands/allBrandsFrames.feature",
-=======
     "name": "Shipping Addresses",
     "description": "",
     "id": "shipping-addresses",
     "keyword": "Feature",
     "uri": "src/test/resources/com/visionworks/features/shippingAddresses/addShiipingAddressFromExcelFile.feature",
->>>>>>> 0938d54ba0410e6dcece98388e3608e51c05a899
     "tags": []
   }
 ]
