@@ -10,7 +10,7 @@ public class frameBrandsStepDefs {
 	public void user_clicks_on_See_All_Brands(){
 	    seeAllBrandsFrames.seeAllBrands.click();
 	}
-
+// 
 	@Then("user should see all frame brands")
 	public void user_should_see_all_frame_brands() {
 	
